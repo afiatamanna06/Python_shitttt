@@ -13,4 +13,12 @@ for i in range(1, number+1, 1):
         stars += '*'
         
     print(stars)
-    
+print("One more pattern:")       
+for i in range(1, number+1, 1):
+    stars = ""
+    for k in range(i, number, 1):
+        stars += ' '
+    for j in range(1, i+1, 1):
+        stars += '*'
+        
+    print(stars)   
