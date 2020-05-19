@@ -1,0 +1,10 @@
+number = {1, 2, 3, 4, 5, 4}
+numberset = ((8, 9, 10))
+print(number)
+number.add(7)
+number.add(-1)
+print(number)
+number.remove(-1)
+print(number)
+print(7 in number)
+print(numberset)
